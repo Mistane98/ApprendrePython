@@ -142,3 +142,16 @@
 # prenom = input("Quel est votre prénom ?  ")
 # age = int(input("Quel est votre âge ?  "))
 # print("Dans 10 ans ",prenom," aura ",age + 10," ans")
+
+
+# Écris un programme qui échange les valeurs de deux variables a et b sans 
+# créer de troisième variable. 
+
+a = int(input("veuillez entrer deux nombres  "))
+b = int(input())
+print(" a = ",a," et b = ",b)
+# pour celui-ci j'ai un peu gambergé
+a = a+b
+b = a-b
+a = a-b
+print("Maintenant a = ",a," et b = ",b)
