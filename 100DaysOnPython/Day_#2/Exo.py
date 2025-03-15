@@ -147,11 +147,76 @@
 # Écris un programme qui échange les valeurs de deux variables a et b sans 
 # créer de troisième variable. 
 
-a = int(input("veuillez entrer deux nombres  "))
-b = int(input())
-print(" a = ",a," et b = ",b)
-# pour celui-ci j'ai un peu gambergé
-a = a+b
-b = a-b
-a = a-b
-print("Maintenant a = ",a," et b = ",b)
+# a = int(input("veuillez entrer deux nombres  "))
+# b = int(input())
+# print(" a = ",a," et b = ",b)
+# # pour celui-ci j'ai un peu gambergé
+# a = a+b
+# b = a-b
+# a = a-b
+# print("Maintenant a = ",a," et b = ",b)
+
+
+# Demande à l'utilisateur son prénom et affiche-le en majuscules et en 
+# minuscules.
+
+# prenom = input("Quel est votre prénom ?  ")
+# print("Prénom en majiscule ",prenom.upper())
+# print("Prénom en miniscule ",prenom.lower())
+
+
+# Demande à l'utilisateur deux nombres et affiche leur quotient en division 
+# entière et leur reste.
+
+# a = int(input("veuillez entrer deux nombres  "))
+# b = int(input())
+# print("le quotien de ",a," et ",b," est ",a//b," leur reste est ", a%b)
+
+
+#  Demande trois nombres à l'utilisateur et affiche leur moyenne. 
+
+
+# a = int(input("veuillez entrer deux nombres  "))
+# b = int(input())
+# c = int(input())
+# moy = (a+b+c)/3
+# print("la moyenne de ",a ,b," et ",c," est ",moy)
+
+
+#  Écris un programme qui convertit une longueur en mètres vers des 
+# kilomètres. 
+
+# lon = int(input("veuillez entrer une longueur en mètres  "))
+# print(lon," mètres =",lon/1000,"kilomètres")
+
+
+# Demande une phrase à l’utilisateur et affiche-la 5 fois sur des lignes 
+# différentes. 
+
+# a = input("veuillez entrer une phrase  ")
+# for x in range(5):
+#     print(a)
+# ou
+# print(a)
+# print(a)
+# print(a)
+# print(a)
+# print(a)
+
+
+
+#  Écris un programme qui demande une année et affiche si elle est bissextile 
+# (année % 4 == 0). 
+
+# annee = int(input("veuillez entrer une année  "))
+# if(annee % 4 == 0):
+    # print(annee,"est une année bissextile")
+
+
+
+# Demande le prix d'un produit et le pourcentage de réduction, puis affiche le 
+# prix final. 
+
+# prix = float(input("veuillez entrer le prix   "))
+# tva = float(input("veuillez entrer le  POURCENTAGE de la réduction "))
+# print("le prix après réduction est ",prix - (prix*tva/100) )
