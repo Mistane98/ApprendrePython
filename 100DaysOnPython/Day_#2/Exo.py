@@ -220,3 +220,21 @@
 # prix = float(input("veuillez entrer le prix   "))
 # tva = float(input("veuillez entrer le  POURCENTAGE de la réduction "))
 # print("le prix après réduction est ",prix - (prix*tva/100) )
+
+
+# Demande à l’utilisateur son prénom et affiche "Bonjour ..." en ajoutant 
+# une ligne vide avant. 
+
+
+# prenom = input("veuillez entrer votre prénom  ")
+# print("")
+# print("Bonjour",prenom)
+
+
+# Demande à l’utilisateur une phrase et affiche la première et la dernière lettre. 
+
+
+a = input("veuillez entrer une phrase  ")
+print("Le premier caractère de cette phrase est ",a[0])
+print("Le dernier caractère de cette phrase est ",a[-1])
+
