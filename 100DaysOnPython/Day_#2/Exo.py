@@ -233,8 +233,12 @@
 
 # Demande à l’utilisateur une phrase et affiche la première et la dernière lettre. 
 
+# a = input("veuillez entrer une phrase  ")
+# print("Le premier caractère de cette phrase est ",a[0])
+# print("Le dernier caractère de cette phrase est ",a[-1])
+# 
 
-a = input("veuillez entrer une phrase  ")
-print("Le premier caractère de cette phrase est ",a[0])
-print("Le dernier caractère de cette phrase est ",a[-1])
+#  Demande à l’utilisateur son année de naissance et affiche son âge actuel. 
 
+annee = int(input("veuillez entrer votre année de naissance "))
+print("actuellement vous devez avoir DANS LES ENVIRONS DE",2025-annee)
