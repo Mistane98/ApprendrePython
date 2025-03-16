@@ -311,20 +311,27 @@
 # grand", "Le deuxième est plus grand" ou "Ils sont égaux". 
 
 
-a = int(input("veuillez entrer deux nombres "))
-b = int(input("veuillez entrer deux nombres "))
+# a = int(input("veuillez entrer deux nombres "))
+# b = int(input("veuillez entrer deux nombres "))
 
-if(a==b):
-    print(a,"est égal à",b)
-elif(a>b):
-    print(a,"est suppérieur à",b)
-else:
-    print(a,"est inférieur à",b)
-
+# if(a==b):
+#     print(a,"est égal à",b)
+# elif(a>b):
+#     print(a,"est suppérieur à",b)
+# else:
+#     print(a,"est inférieur à",b)
 
 
 
 # 39. Demande un nombre et affiche "Ce nombre est un multiple de 5" si c’est 
-# vrai. 
+# vrai.
+
+a = int(input("veuillez entrer un nombre  "))
+if(a%5==0):
+    print(a," est un multiple de 5")
+else:
+    print(a,"n'est pas un multiple de 5")
+
+
 # 40. Demande à l’utilisateur un mot et affiche "Ce mot commence par une 
 # voyelle" si c’est vrai.
