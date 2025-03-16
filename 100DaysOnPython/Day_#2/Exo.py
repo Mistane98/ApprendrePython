@@ -266,13 +266,19 @@
 
 # 33. Écris un programme qui affiche "Python est génial" sans utiliser 
 # directement cette phrase.
-a = "python" 
-b = "est"
-c = "génial"
-print(a,b,c)
+
+# a = "python" 
+# b = "est"
+# c = "génial"
+# print(a,b,c)
 
 
 # 34. Demande à l’utilisateur un mot et affiche-le en le dupliquant 3 fois. 
+
+a = input("veuillez entrer un mot ")
+for i in range(3):
+    print(a)
+
 # 35. Demande à l’utilisateur un texte et affiche "Ce texte contient ... 
 # voyelles et ... consonnes". 
 # 36. Écris un programme qui prend une durée en secondes et la convertit en 
