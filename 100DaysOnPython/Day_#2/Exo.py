@@ -275,12 +275,25 @@
 
 # 34. Demande à l’utilisateur un mot et affiche-le en le dupliquant 3 fois. 
 
-a = input("veuillez entrer un mot ")
-for i in range(3):
-    print(a)
+# a = input("veuillez entrer un mot ")
+# for i in range(3):
+#     print(a)
 
 # 35. Demande à l’utilisateur un texte et affiche "Ce texte contient ... 
 # voyelles et ... consonnes". 
+
+
+a = input("veuillez entrer un texte ")
+voyelle = int(0)
+consonne = int(0)
+for i in range(len(a)):
+    if(a[i]=="i" or a[i]=="u" or a[i]=="o" or a[i]=="a" or a[i]=="e" or a[i]=="y"):
+        voyelle = voyelle + 1
+    else:
+        consonne = consonne + 1
+print("Ce texte contient",voyelle,"voyelles et",consonne,"consonnes")
+
+
 # 36. Écris un programme qui prend une durée en secondes et la convertit en 
 # heures, minutes et secondes. 
 # 37. Demande à l’utilisateur son salaire mensuel et affiche son salaire annuel. 
