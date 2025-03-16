@@ -240,5 +240,19 @@
 
 #  Demande à l’utilisateur son année de naissance et affiche son âge actuel. 
 
-annee = int(input("veuillez entrer votre année de naissance "))
-print("actuellement vous devez avoir DANS LES ENVIRONS DE",2025-annee)
+# annee = int(input("veuillez entrer votre année de naissance "))
+# print("actuellement vous devez avoir DANS LES ENVIRONS DE",2025-annee)
+
+
+# Écris un programme qui demande la taille et le poids d'une personne et 
+# calcule son IMC (poids / taille²). 
+                 
+
+taille = float(input("veuillez entrer votre taille   "))
+poids = float(input("veuillez entrer  votre poids "))
+print("Votre IMC EST de",poids/taille**2,"kg/m²")
+
+
+
+# Demande un nombre à l’utilisateur et affiche "Positif" s'il est positif, 
+# "Négatif" sinon. 
