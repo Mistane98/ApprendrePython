@@ -244,15 +244,21 @@
 # print("actuellement vous devez avoir DANS LES ENVIRONS DE",2025-annee)
 
 
-# Écris un programme qui demande la taille et le poids d'une personne et 
-# calcule son IMC (poids / taille²). 
+# # Écris un programme qui demande la taille et le poids d'une personne et 
+# # calcule son IMC (poids / taille²). 
                  
 
-taille = float(input("veuillez entrer votre taille   "))
-poids = float(input("veuillez entrer  votre poids "))
-print("Votre IMC EST de",poids/taille**2,"kg/m²")
+# taille = float(input("veuillez entrer votre taille   "))
+# poids = float(input("veuillez entrer  votre poids "))
+# print("Votre IMC EST de",poids/taille**2,"kg/m²")
 
 
 
 # Demande un nombre à l’utilisateur et affiche "Positif" s'il est positif, 
 # "Négatif" sinon. 
+
+nombre = int(input("veuillez entrer un nombre "))
+if(nombre >= 0):
+    print(nombre,"est un nombre positif")
+else:
+    print(nombre,"est un nombre négatif")
