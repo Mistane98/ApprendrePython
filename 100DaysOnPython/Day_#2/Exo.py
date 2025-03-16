@@ -257,8 +257,30 @@
 # Demande un nombre à l’utilisateur et affiche "Positif" s'il est positif, 
 # "Négatif" sinon. 
 
-nombre = int(input("veuillez entrer un nombre "))
-if(nombre >= 0):
-    print(nombre,"est un nombre positif")
-else:
-    print(nombre,"est un nombre négatif")
+# nombre = int(input("veuillez entrer un nombre "))
+# if(nombre >= 0):
+#     print(nombre,"est un nombre positif")
+# else:
+#     print(nombre,"est un nombre négatif")
+
+
+# 33. Écris un programme qui affiche "Python est génial" sans utiliser 
+# directement cette phrase.
+a = "python" 
+b = "est"
+c = "génial"
+print(a,b,c)
+
+
+# 34. Demande à l’utilisateur un mot et affiche-le en le dupliquant 3 fois. 
+# 35. Demande à l’utilisateur un texte et affiche "Ce texte contient ... 
+# voyelles et ... consonnes". 
+# 36. Écris un programme qui prend une durée en secondes et la convertit en 
+# heures, minutes et secondes. 
+# 37. Demande à l’utilisateur son salaire mensuel et affiche son salaire annuel. 
+# 38. Demande à l’utilisateur deux nombres et affiche "Le premier est plus 
+# grand", "Le deuxième est plus grand" ou "Ils sont égaux". 
+# 39. Demande un nombre et affiche "Ce nombre est un multiple de 5" si c’est 
+# vrai. 
+# 40. Demande à l’utilisateur un mot et affiche "Ce mot commence par une 
+# voyelle" si c’est vrai.
