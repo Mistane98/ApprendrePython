@@ -302,13 +302,28 @@
 
 # 37. Demande à l’utilisateur son salaire mensuel et affiche son salaire annuel. 
 
-a = int(input("veuillez entrer votre salaire mensuel "))
-print("Si votre salaire mesuel est de",a,"alors le salaire annuel sera",a*12)
+# a = int(input("veuillez entrer votre salaire mensuel "))
+# print("Si votre salaire mesuel est de",a,"alors le salaire annuel sera",a*12)
 
 
 
 # 38. Demande à l’utilisateur deux nombres et affiche "Le premier est plus 
 # grand", "Le deuxième est plus grand" ou "Ils sont égaux". 
+
+
+a = int(input("veuillez entrer deux nombres "))
+b = int(input("veuillez entrer deux nombres "))
+
+if(a==b):
+    print(a,"est égal à",b)
+elif(a>b):
+    print(a,"est suppérieur à",b)
+else:
+    print(a,"est inférieur à",b)
+
+
+
+
 # 39. Demande un nombre et affiche "Ce nombre est un multiple de 5" si c’est 
 # vrai. 
 # 40. Demande à l’utilisateur un mot et affiche "Ce mot commence par une 
