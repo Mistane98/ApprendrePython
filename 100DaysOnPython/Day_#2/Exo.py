@@ -326,12 +326,20 @@
 # 39. Demande un nombre et affiche "Ce nombre est un multiple de 5" si c’est 
 # vrai.
 
-a = int(input("veuillez entrer un nombre  "))
-if(a%5==0):
-    print(a," est un multiple de 5")
-else:
-    print(a,"n'est pas un multiple de 5")
+# a = int(input("veuillez entrer un nombre  "))
+# if(a%5==0):
+#     print(a," est un multiple de 5")
+# else:
+#     print(a,"n'est pas un multiple de 5")
 
 
 # 40. Demande à l’utilisateur un mot et affiche "Ce mot commence par une 
 # voyelle" si c’est vrai.
+
+a= input("veuillez entrer un texte ")
+
+
+if(a[0]=="i" or a[0]=="I" or a[0]=="u" or a[0]=="U" or a[0]=="o" or a[0]=="O" or a[0]=="a" or a[0]=="A" or a[0]=="e" or a[0]=="E" or a[0]=="y" or a[0]=="Y"):
+    print(a,"commmence par une voyelle")
+else:
+        print(a,"ne commmence pas par une voyelle")
