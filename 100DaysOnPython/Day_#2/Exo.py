@@ -368,6 +368,16 @@
 
 
 
+# 41. Demande à l’utilisateur un nombre et affiche "Ce nombre est un carré 
+# parfait" si c'est vrai.
+
+# nbr = int(input("Veuillez saisir un nombre : "))
+# for i in range((nbr//2)+1):
+#     if(i**2==nbr):
+#         print(nbr,"est un carré parfait car",nbr,"=",i,"²")
+#         break
+
+
 
 # 42. Demande à l'utilisateur un mot et vérifie s'il commence et finit par la même 
 # lettre. 
@@ -455,18 +465,32 @@
 
 # 49. Demande une phrase et affiche "Ce texte est un palindrome" si c’est vrai. 
 
-mot = input("Veuillez saisir un mot : ")
-demi = len(mot)//2
-verife = False
-for i in range(demi):
-    if(mot[i]==mot[-(i+1)]):
-        verife= True
-    else:
-        verife=False
-    print(mot[i]," et ",mot[-(i+1)])
+# mot = input("Veuillez saisir un mot : ")
+# demi = len(mot)//2
+# verife = False
+# for i in range(demi):
+#     if(mot[i]==mot[-(i+1)]):
+#         verife= True
+#     else:
+#         verife=False
+#     print(mot[i]," et ",mot[-(i+1)])
 
-if(verife==False):
-    print(mot,"n'est pas un palindrome")
-else:
-    print(mot,"est un palindrome")
+# if(verife==False):
+#     print(mot,"n'est pas un palindrome")
+# else:
+#     print(mot,"est un palindrome")
+
+
+
+# 50. Demande à l’utilisateur un texte et affiche "Ce texte est en majuscules", 
+# "Ce texte est en minuscules", ou "Ce texte est mixte". 
+
+# texte = input("Entrez votre texte : ")
+
+# if(texte.lower() == texte):
+#     print("Ce texte est en minuscule")
+# elif(texte.upper()==texte):
+#     print("Ce texte est en majuscule")
+# else:
+#     print("Ce texte est mixte")
 
