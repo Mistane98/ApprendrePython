@@ -400,9 +400,27 @@
 
 # 45.Demande à l’utilisateur un nombre entier et affiche la somme des chiffres qui 
 # le composent.
-somme = int(0)
-nombre = (input("veuillez entrer un nombre "))
-for i in range(len(nombre)):
-    somme = somme+ int(nombre[i])
-    print(nombre[i])
-print("la SOMME DES CHIFFRES QUI LE COMPOSE EST ",somme)
+
+# somme = int(0)
+# nombre = (input("veuillez entrer un nombre "))
+# for i in range(len(nombre)):
+#     somme = somme+ int(nombre[i])
+#     print(nombre[i])
+# print("la SOMME DES CHIFFRES QUI LE COMPOSE EST ",somme)
+
+
+# 46. Demande trois nombres et affiche le plus grand.
+
+
+a = float(input("veuillez entrer trois nombres"))
+b = float(input())
+c = float(input())
+
+if(a>b and a>c):
+    print(a,"est le plus grand nombre")
+elif(b>a and b>c):
+    print(b,"est le plus grand nombre")
+elif(c>a and c>b):
+    print(c,"est le plus grand nombre")
+else:
+    print("y'en a qui sont égaux")
