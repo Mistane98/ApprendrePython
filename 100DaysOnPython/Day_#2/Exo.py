@@ -412,15 +412,41 @@
 # 46. Demande trois nombres et affiche le plus grand.
 
 
-a = float(input("veuillez entrer trois nombres"))
-b = float(input())
-c = float(input())
+# a = float(input("veuillez entrer trois nombres"))
+# b = float(input())
+# c = float(input())
 
-if(a>b and a>c):
-    print(a,"est le plus grand nombre")
-elif(b>a and b>c):
-    print(b,"est le plus grand nombre")
-elif(c>a and c>b):
-    print(c,"est le plus grand nombre")
-else:
-    print("y'en a qui sont égaux")
+# if(a>b and a>c):
+#     print(a,"est le plus grand nombre")
+# elif(b>a and b>c):
+#     print(b,"est le plus grand nombre")
+# elif(c>a and c>b):
+#     print(c,"est le plus grand nombre")
+# else:
+#     print("y'en a qui sont égaux")
+
+# 47. Demande à l’utilisateur un nombre et affiche "Ce nombre est premier" s’il 
+# l’est. 
+
+# nbr = int(input("Veuillez saisir un nombre : "))
+# cpt = int(0)
+# for i in range(nbr):
+#     if(nbr%(i+1)==0):
+#         cpt = cpt +1
+# print(cpt)
+# if(cpt==2):
+#     print("Ce nombre est premier")
+# else:
+#     print(nbr,"n'est pas premier")
+
+
+# 48.Écris un programme qui demande à l’utilisateur deux nombres et échange 
+# leurs valeurs. 
+
+nbr1 = int(input("Veuillez saisir deux nombreS : "))
+nbr2 = int(input())
+print("nombre 1 =",nbr1,"et nombre 2 =",nbr2)
+ech = nbr1
+nbr1 =nbr2
+nbr2 = ech
+print("nombre 1 est devenu",nbr1,"et nombre 2 est devenu",nbr2)
