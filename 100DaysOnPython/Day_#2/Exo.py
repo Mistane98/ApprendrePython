@@ -297,24 +297,29 @@
 # 36. Écris un programme qui prend une durée en secondes et la convertit en 
 # heures, minutes et secondes. 
 
-duree = int(input("Veuillez entrer une durée en secondes"))
-reste = int(0)
-heure = int(0)
-minute = int(0)
-seconde = int(0)
-if(duree > 3600):
-    heure = duree//3600
-    reste = duree%3600
-    if(reste > 60):
-        minute = reste//60
-        seconde = reste%60
-    print(heure,"h",minute,"min",seconde,"s")
-elif (duree > 60):
-    minute = duree//60
-    seconde = duree%60
-    print(minute,"min",seconde,"s")
-elif(duree == 3600):
-    print(duree,"= 1h")
+# duree = int(input("Veuillez entrer une durée en secondes"))
+# reste = int(0)
+# heure = int(0)
+# minute = int(0)
+# seconde = int(0)
+# if(duree == 3600):
+#     print(duree,"secondes= 1h")
+#     # je peux tout aussi enlevé le if(duree == 3600) et commencé à la 2eme 
+#     # condition en mettant supperieur ou égal au lieu de suppérieur seulement
+#     # ou aussi le faire faire en partant des seconde puis des minutes et enfin les heures
+# elif (duree > 3600 ):
+#     heure = duree//3600
+#     reste = duree%3600
+#     if(reste > 60):
+#         minute = reste//60
+#         seconde = reste%60
+#     print(heure,"h",minute,"min",seconde,"s")
+# elif(duree >= 60):
+#     minute = duree//60
+#     seconde = duree%60
+#     print(minute,"min",seconde,"s")
+
+   
 
 
 
@@ -360,3 +365,29 @@ elif(duree == 3600):
 #     print(a,"commmence par une voyelle")
 # else:
 #         print(a,"ne commmence pas par une voyelle")
+
+
+
+
+
+# 42. Demande à l'utilisateur un mot et vérifie s'il commence et finit par la même 
+# lettre. 
+
+# a= input("veuillez entrer un mot ")
+# if(a[0]==a[-1]):
+#     print("c'est vrai",a,"commence par",a[0],"et se termine par",a[0])
+# else:
+#     print("C'est faux",a,"commence par",a[0],"mais se termine par",a[-1])
+
+
+# 43. Demande à l’utilisateur un texte et affiche le nombre de mots qu’il contient. 
+
+# celui-ci est un peu incomplet
+# a = input("veuillez entrer un texte ")
+# cpt = int(1)
+# for i in range(len(a)):
+#     if(a[i]==" "):
+#         cpt = cpt + 1
+# print("Ce texte contient",cpt,"mots")
+
+
