@@ -297,6 +297,25 @@
 # 36. Écris un programme qui prend une durée en secondes et la convertit en 
 # heures, minutes et secondes. 
 
+duree = int(input("Veuillez entrer une durée en secondes"))
+reste = int(0)
+heure = int(0)
+minute = int(0)
+seconde = int(0)
+if(duree > 3600):
+    heure = duree//3600
+    reste = duree%3600
+    if(reste > 60):
+        minute = reste//60
+        seconde = reste%60
+    print(heure,"h",minute,"min",seconde,"s")
+elif (duree > 60):
+    minute = duree//60
+    seconde = duree%60
+    print(minute,"min",seconde,"s")
+elif(duree == 3600):
+    print(duree,"= 1h")
+
 
 
 
@@ -336,10 +355,8 @@
 # 40. Demande à l’utilisateur un mot et affiche "Ce mot commence par une 
 # voyelle" si c’est vrai.
 
-a= input("veuillez entrer un texte ")
-
-
-if(a[0]=="i" or a[0]=="I" or a[0]=="u" or a[0]=="U" or a[0]=="o" or a[0]=="O" or a[0]=="a" or a[0]=="A" or a[0]=="e" or a[0]=="E" or a[0]=="y" or a[0]=="Y"):
-    print(a,"commmence par une voyelle")
-else:
-        print(a,"ne commmence pas par une voyelle")
+# a= input("veuillez entrer un texte ")
+# if(a[0]=="i" or a[0]=="I" or a[0]=="u" or a[0]=="U" or a[0]=="o" or a[0]=="O" or a[0]=="a" or a[0]=="A" or a[0]=="e" or a[0]=="E" or a[0]=="y" or a[0]=="Y"):
+#     print(a,"commmence par une voyelle")
+# else:
+#         print(a,"ne commmence pas par une voyelle")
