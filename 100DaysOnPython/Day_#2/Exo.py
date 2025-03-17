@@ -443,10 +443,30 @@
 # 48.Écris un programme qui demande à l’utilisateur deux nombres et échange 
 # leurs valeurs. 
 
-nbr1 = int(input("Veuillez saisir deux nombreS : "))
-nbr2 = int(input())
-print("nombre 1 =",nbr1,"et nombre 2 =",nbr2)
-ech = nbr1
-nbr1 =nbr2
-nbr2 = ech
-print("nombre 1 est devenu",nbr1,"et nombre 2 est devenu",nbr2)
+# nbr1 = int(input("Veuillez saisir deux nombres : "))
+# nbr2 = int(input())
+# print("nombre 1 =",nbr1,"et nombre 2 =",nbr2)
+# ech = nbr1
+# nbr1 =nbr2
+# nbr2 = ech
+# print("nombre 1 est devenu",nbr1,"et nombre 2 est devenu",nbr2)
+
+
+
+# 49. Demande une phrase et affiche "Ce texte est un palindrome" si c’est vrai. 
+
+mot = input("Veuillez saisir un mot : ")
+demi = len(mot)//2
+verife = False
+for i in range(demi):
+    if(mot[i]==mot[-(i+1)]):
+        verife= True
+    else:
+        verife=False
+    print(mot[i]," et ",mot[-(i+1)])
+
+if(verife==False):
+    print(mot,"n'est pas un palindrome")
+else:
+    print(mot,"est un palindrome")
+
