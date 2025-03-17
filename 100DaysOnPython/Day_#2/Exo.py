@@ -337,7 +337,6 @@
 
 # a = int(input("veuillez entrer deux nombres "))
 # b = int(input("veuillez entrer deux nombres "))
-
 # if(a==b):
 #     print(a,"est égal à",b)
 # elif(a>b):
@@ -391,3 +390,9 @@
 # print("Ce texte contient",cpt,"mots")
 
 
+# 44 Écris un programme qui demande la distance et la vitesse, puis calcule le 
+# temps de trajet.
+
+dist = float(input("veuillez entrer la distance (en mètre) "))
+vit = float(input("veuillez entrer la vitesse (en mètre par seconde) "))
+print("Le temps du trajet sera :",dist/vit,"s")
