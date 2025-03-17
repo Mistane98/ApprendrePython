@@ -390,9 +390,19 @@
 # print("Ce texte contient",cpt,"mots")
 
 
-# 44 Écris un programme qui demande la distance et la vitesse, puis calcule le 
+# 44.Écris un programme qui demande la distance et la vitesse, puis calcule le 
 # temps de trajet.
 
-dist = float(input("veuillez entrer la distance (en mètre) "))
-vit = float(input("veuillez entrer la vitesse (en mètre par seconde) "))
-print("Le temps du trajet sera :",dist/vit,"s")
+# dist = float(input("veuillez entrer la distance (en mètre) "))
+# vit = float(input("veuillez entrer la vitesse (en mètre par seconde) "))
+# print("Le temps du trajet sera :",dist/vit,"s")
+
+
+# 45.Demande à l’utilisateur un nombre entier et affiche la somme des chiffres qui 
+# le composent.
+somme = int(0)
+nombre = (input("veuillez entrer un nombre "))
+for i in range(len(nombre)):
+    somme = somme+ int(nombre[i])
+    print(nombre[i])
+print("la SOMME DES CHIFFRES QUI LE COMPOSE EST ",somme)
