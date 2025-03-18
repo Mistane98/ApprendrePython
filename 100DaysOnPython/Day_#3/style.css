@@ -1,0 +1,11 @@
+p{
+    background: #d3c375f7;
+    justify-items: center;
+    flex-wrap: nowrap;
+}
+
+.content{
+    float: left;
+    flex-flow: column;
+    /* width:auto; */
+}
