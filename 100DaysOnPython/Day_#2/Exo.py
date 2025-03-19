@@ -147,6 +147,14 @@
 # Écris un programme qui échange les valeurs de deux variables a et b sans 
 # créer de troisième variable. 
 
+# 1ère méthode
+# a = 5
+# b = 7
+# print(a,"et",b)
+# a,b = b,a
+# print(a,"et",b)
+
+# 2ème méthode
 # a = int(input("veuillez entrer deux nombres  "))
 # b = int(input())
 # print(" a = ",a," et b = ",b)
