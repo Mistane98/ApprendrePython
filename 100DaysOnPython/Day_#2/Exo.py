@@ -502,3 +502,27 @@
 # else:
 #     print("Ce texte est mixte")
 
+
+
+# les exos sur du cours
+# 
+# Exercice 1  
+# Un magasin de reprographie facture 2 F les dix premières photocopies, 1.50 F les vingt suivantes et 
+# 1 F au-delà. Ecrivez un programme qui demande à l’utilisateur le nombre de photocopies 
+# effectuées puis affiche le montant correspondant. 
+
+nbr = int(input("Entrer le nombre de photocopies "))
+reste= int(0)
+prix = float(0)
+if(nbr>10):
+    reste = nbr-10
+    prix += 2*10
+    if(reste>20):
+        nbr = reste-20
+        prix += 1.5*20 + nbr 
+    else:
+         prix += 1.5*reste
+    print("le montant est de la facture est de",prix)
+
+else:
+    print("le montant est de la facture est de",2*nbr)
