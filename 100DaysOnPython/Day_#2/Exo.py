@@ -508,21 +508,50 @@
 # 
 # Exercice 1  
 # Un magasin de reprographie facture 2 F les dix premières photocopies, 1.50 F les vingt suivantes et 
-# 1 F au-delà. Ecrivez un programme qui demande à l’utilisateur le nombre de photocopies 
-# effectuées puis affiche le montant correspondant. 
+# # 1 F au-delà. Ecrivez un programme qui demande à l’utilisateur le nombre de photocopies 
+# # effectuées puis affiche le montant correspondant. 
 
-nbr = int(input("Entrer le nombre de photocopies "))
-reste= int(0)
-prix = float(0)
-if(nbr>10):
-    reste = nbr-10
-    prix += 2*10
-    if(reste>20):
-        nbr = reste-20
-        prix += 1.5*20 + nbr 
-    else:
-         prix += 1.5*reste
-    print("le montant est de la facture est de",prix)
+# nbr = int(input("Entrer le nombre de photocopies "))
+# reste= int(0)
+# prix = float(0)
+# if(nbr>10):
+#     reste = nbr-10
+#     prix += 2*10
+#     if(reste>20):
+#         nbr = reste-20
+#         prix += 1.5*20 + nbr 
+#     else:
+#          prix += 1.5*reste
+#     print("le montant est de la facture est de",prix)
 
-else:
-    print("le montant est de la facture est de",2*nbr)
+# else:
+#     print("le montant est de la facture est de",2*nbr)
+
+
+
+
+
+# Exercice 2 
+# Ecrire un programme permettant d’afficher le nom du jour en introduisant le numéro du jour.  
+# En utilisant une alternative. 
+# En utilisant l’instruction match.
+
+choix = int(input("Entrer le numéro du jour de la semaine"))
+
+match choix:
+    case 1:
+        print("Lundi")
+    case 2:
+        print("Mardi")
+    case 3:
+        print("Mercredi")
+    case 4:
+        print("Jeudi")
+    case 5:
+        print("Vendredi")
+    case 6:
+        print("Samedi")
+    case 7:
+        print("Dimanche")
+
+    
