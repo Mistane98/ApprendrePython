@@ -534,24 +534,24 @@
 # Exercice 2 
 # Ecrire un programme permettant d’afficher le nom du jour en introduisant le numéro du jour.  
 # En utilisant une alternative. 
-# En utilisant l’instruction match.
+# # En utilisant l’instruction match.
 
-choix = int(input("Entrer le numéro du jour de la semaine"))
+# choix = int(input("Entrer le numéro du jour de la semaine"))
 
-match choix:
-    case 1:
-        print("Lundi")
-    case 2:
-        print("Mardi")
-    case 3:
-        print("Mercredi")
-    case 4:
-        print("Jeudi")
-    case 5:
-        print("Vendredi")
-    case 6:
-        print("Samedi")
-    case 7:
-        print("Dimanche")
+# match choix:
+#     case 1:
+#         print("Lundi")
+#     case 2:
+#         print("Mardi")
+#     case 3:
+#         print("Mercredi")
+#     case 4:
+#         print("Jeudi")
+#     case 5:
+#         print("Vendredi")
+#     case 6:
+#         print("Samedi")
+#     case 7:
+#         print("Dimanche")
 
-    
+    # ou utiliser les conditions
